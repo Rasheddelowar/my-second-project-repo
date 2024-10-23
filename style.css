@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+
+body{
+     font-family: "Inter", sans-serif;
+     background-color:rgb(34, 34, 34);
+    }
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+*li{list-style: none;}
+
+*a{text-decoration: none;
+}
+
+#header{
+    width: 1440px;
+    height:675px;
+    margin: 0 auto;
+    background-color:rgb(35, 35, 35);
+}
+.section{
+    width: 100%;
+    min-height: 20px;
+    background-color: black;
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo a{color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#shap{
+    
+    font-family: "Playwrite GB S", cursive;
+}
+.navbar>ul{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.navbar>ul>li{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 20px;
+}
+
+.navbar>ul>li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.active{background-color: tomato;}
+
+.navbar>ul>li a:hover{ background-color: tomato; border-radius: 10px; font-weight: bold;}
+
+#fitman-picture{
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    line-height:120pxpx;
+   
+    justify-content: space-between;
+}
+
+#humbarger{
+    width: 50px;
+    height: 50px;
+   display: none;
+}
+#workout{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: rgb(253, 248, 248);
+    opacity: .50;
+}
+.healty{
+    color: white;
+    font-size: 70px;
+  
+
+}
+#huge{
+    color: white;
+    margin-top: 30px;
+    color: gray;
+}
+
+.button-main{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.button-main .btn1{border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+    background-color: tomato;
+
+}
+
+.button-main .btn2{border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+
+}
+
+.button-main .btn1:hover{background-color: tomato;}
+.button-main .btn2:hover{background-color: tomato;}
+
+#fitman-picture .hero{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-left: 200px;
+    background-image:url(image/Images1.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+ .hero #flag{
+    width: 200px;
+    height: 90px;
+    position:absolute;
+    display: flex;
+    left:-80px;
+    bottom: 50px;
+    border-radius: 10px;
+    opacity: .40;
+    background-color: rgb(249, 251, 251);
+justify-content: space-between;}
+
+#red-red{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+#red-circle{width:50%;
+height: 100px;
+margin-left: 80px;
+margin-top: 15px;
+padding-right: 5px;
+position: absolute;
+margin-bottom: 30px;}
+
+#habit{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+}
+ #good-habit{
+    width: 90%;
+    height: 290px;
+    margin-top: 30px;
+    margin-left: 60px;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+#run-image{
+    width:80%;
+    display: flex;
+    margin-left: 100px;border-radius: 10px;
+    padding: 50px 50px;
+    background-color: rgb(68, 67, 67);
+    justify-content:space-between;
+}
+
+.protfolio{
+    box-shadow: 10px 0 10px 0 wheat;
+}
+
+#bmi{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 500px;
+    line-height: 30px;
+}
+
+#our-team{
+    width: 80%;
+    margin-left: 100px;
+    height: 650px;
+    padding-left: 50px;
+    margin-top: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    box-shadow: 0 10px 10px 0 rgb(82, 82, 82);
+}
+
+ #man-1{ 
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+ margin-top: -50px;
+ 
+
+}
+
+#man-11{ 
+    position: absolute;
+    color: white;
+    
+    padding-left: 10px;
+margin-top: -30px;}
+
+#bmi-section{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-evenly;
+    background-color: rgb(68, 67, 67);
+}
+#table-section{
+    margin-left: 100px;
+    line-height: 70px;
+    color: white;
+    
+}
+
+#bmi-calculator-sec{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+table tr th{
+    border-collapse: collapse;
+    width:200px;
+    height: 50px;
+    color: white;
+    border-color: 3px solid white;
+    text-align: center;
+    border-collapse: collapse;
+
+  }
+
+
+table tr td{
+    border-collapse: collapse;
+    width:200px;
+    height: 50px;
+    color: white;
+    border-color: 3px solid white;
+    text-align: center;
+    border-collapse: collapse;
+
+  }
+
+ input{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 15px;
+ }
+ #input-btn{
+    
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 25px;
+    background-color: white;
+    border: 0;
+
+ }
+
+ #activity-input{
+    width: 620px;
+    height: 40px;
+ }
+
+ .form-btn{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 20px;
+ }
+
+ #footer-section{
+    width: 90%;
+    height: 550px;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(54, 51, 51);
+ }
+
+ #fitman-footer{
+    width: 500px;
+    height: 80px;
+    font-size: 50px;
+    color: tomato;
+ }
+
+ #get-start{
+    width:450px;
+    height:500px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ hr{
+    width: 70%;
+    height:.8px;
+    margin-left: 190px;
+    background-color: antiquewhite;
+ }
+
+#reserve{
+    width: 90%;
+    height: 100px;
+    color: rgb(235, 230, 230);
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(54, 51, 51);
+}
+
+
+@media screen and (max-width:576px) {.navbar>ul{
+    display:none;
+  
+}
+    
+}
+
+@media screen and (max-width:576px) {.navbar{
+ width: 450px;
+ height: 50px;
+ border: 2px solid rgb(167, 147, 147);
+  
+}
+    
+}
+@media screen and (max-width:576px) {#humbarger{
+    display: block;
+    position: absolute;
+    right: 0;
+   top: 20px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    
+}
+}
+
+@media screen and (max-width:576px) { #container #fitman-picture{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+ margin-left: -70px;
+   padding-right: 50px;
+    font-size: 20px;
+    border: 2px solid red;
+    width:450px;
+    height: 450px;
+}
+    
+}
+
+@media screen and (max-width:576px) {#good-habit{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:repeat(1 1fr);
+}
+}
+
+@media screen and (max-width:576px) {#habit{
+    width: 400px;
+    height: 400px;
+   
+   top: 50px;
+    
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns:repeat(1 1fr);
+}
+}
